@@ -1,7 +1,7 @@
 Apache Flume Debian package
 ===========================
 
-A Debian package for installing Apache Flume 1.5.2. Works on Ubuntu and Debian.
+A Debian package for installing Apache Flume 1.9.0. Works on Ubuntu and Debian.
 
 **Download the latest pre-built release here:**
 https://github.com/balazsbotond/flume-deb-package/releases
@@ -16,14 +16,14 @@ Clone the repository:
 Build the package using `dpkg-deb`:
 
     cd flume-deb-package
-    dpkg-deb --build flume_1.5.2-1
+    dpkg-deb --build flume_1.9.0-1
 
-This will create a `flume_1.5.2-1.deb` file in the current directory.
+This will create a `flume_1.9.0-1.deb` file in the current directory.
 
 Installing the package
 ----------------------
 
-    dpkg -i flume_1.5.2-1.deb
+    dpkg -i flume_1.9.0-1.deb
     apt-get install -f
 
 Using Flume
